@@ -2,7 +2,7 @@
 $primary-color: #1f1f1f;
 $secondary-color: #dcdcdc;
 $font-family: 'Poppins', sans-serif;
-$container-color: #575151;
+$container-color: rgba(255, 255, 255, 0.2);
 
 /* Global styles */
 * {
@@ -59,9 +59,12 @@ body {
 }
 
 #projectTitle{
-	width: 200px;
+	width: 550px;
 	text-align: center;
 	
+}
+#effects:hover {
+	color: blue;
 }
 
 .name h1 {
@@ -239,6 +242,7 @@ body {
   .navbar-link:hover {
 	background-color: #555;
   }
+ 
   
   
 
