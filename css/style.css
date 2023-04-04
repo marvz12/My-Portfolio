@@ -52,6 +52,11 @@ body {
      object-fit: cover;
 }
 
+#projectTitle {
+  width: 200px;
+  text-align: center;
+}
+
 .name h1 {
   font-size: 3rem;
   font-weight: 500;
